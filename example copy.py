@@ -36,11 +36,6 @@ from models.s4.s4 import S4Block as S4  # Can use full version instead of minima
 from models.s4.s4d import S4D
 from tqdm.auto import tqdm
 
-import pdb; pdb.set_trace()
-
-import sys; sys.breakpoint(); 
-
-
 # Dropout broke in PyTorch 1.11
 if tuple(map(int, torch.__version__.split('.')[:2])) == (1, 11):
     print("WARNING: Dropout is bugged in PyTorch 1.11. Results may be worse.")
