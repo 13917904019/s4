@@ -1,5 +1,7 @@
 # Structured State Spaces for Sequence Modeling
 
+test amos
+
 This repository provides the official implementations and experiments for models related to [S4](https://arxiv.org/abs/2111.00396),
 including [HiPPO](https://arxiv.org/abs/2008.07669), [LSSL](https://arxiv.org/abs/2110.13985), [SaShiMi](https://arxiv.org/abs/2202.09729),
 [DSS](https://arxiv.org/abs/2203.14343), [HTTYH](https://arxiv.org/abs/2206.12037), [S4D](https://arxiv.org/abs/2206.11893),
