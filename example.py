@@ -39,9 +39,11 @@ from tqdm.auto import tqdm
 import pdb; pdb.set_trace()
 
 breakpoint(); 
+print(1);
 print(12);
-print(12);
-
+print(123);
+print(124);
+breakpoint();
 # Dropout broke in PyTorch 1.11
 if tuple(map(int, torch.__version__.split('.')[:2])) == (1, 11):
     print("WARNING: Dropout is bugged in PyTorch 1.11. Results may be worse.")
